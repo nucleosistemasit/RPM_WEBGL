@@ -28,9 +28,9 @@ function unityShowBanner(msg, type) {
 var buildUrl = "Build";
 var loaderUrl = buildUrl + "/RPM_WEBGL.loader.js";
 var config = {
-    dataUrl: buildUrl + "/RPM_WEBGL.data.gz",
-    frameworkUrl: buildUrl + "/RPM_WEBGL.framework.js.gz",
-    codeUrl: buildUrl + "/RPM_WEBGL.wasm.gz",
+    dataUrl: buildUrl + "/RPM_WEBGL.data",
+    frameworkUrl: buildUrl + "/RPM_WEBGL.framework.js",
+    codeUrl: buildUrl + "/RPM_WEBGL.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "UnityExample_WebGL",
